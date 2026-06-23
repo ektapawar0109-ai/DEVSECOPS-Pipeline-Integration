@@ -1,87 +1,114 @@
-# 🔐 Vulnerability Detection Dashboard
+# 🔐 DEVSECOPS Pipeline Integration
 
 ## 📌 Project Overview
 
-The Vulnerability Detection Dashboard is a cybersecurity project designed to identify, analyze, and visualize security vulnerabilities in systems and applications. It provides an interactive dashboard for monitoring vulnerabilities, viewing severity levels, and generating reports to improve security posture.
+DEVSECOPS Pipeline Integration is a cybersecurity and DevOps project that incorporates security practices into every stage of the Continuous Integration and Continuous Deployment (CI/CD) lifecycle. The project demonstrates how security tools and automated testing can be integrated into a DevOps pipeline to ensure secure software delivery.
 
 ---
 
 ## 🚀 Features
 
-- Real-time vulnerability monitoring
-- Interactive dashboard with charts and statistics
-- Severity classification (Low, Medium, High, Critical)
-- Upload and analyze scan reports
-- Vulnerability summary and risk assessment
-- User-friendly interface
-- Automated report generation
+- Continuous Integration and Continuous Deployment (CI/CD)
+- Automated security scanning
+- Static Application Security Testing (SAST)
+- Dependency vulnerability analysis
+- Container security scanning
+- Code quality analysis
+- Automated build and deployment
+- Secure software development lifecycle
 
 ---
 
 ## 🛠 Technologies Used
 
+- GitHub Actions
+- Docker
+- Jenkins
 - Python
-- Streamlit
-- Pandas
-- Plotly
-- NumPy
-- Scikit-learn
-- Matplotlib
+- SonarQube
+- Trivy
+- OWASP ZAP
+- Git
+- YAML
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Vulnerability-Detection-Dashboard/
+DEVSECOPS-Pipeline-Integration/
 │
-├── app.py                 # Main dashboard application
-├── dataset/               # Vulnerability datasets
-├── models/                # Trained ML models
-├── images/                # Screenshots and images
-├── requirements.txt       # Required libraries
+├── .github/workflows/     # CI/CD workflow files
+├── Dockerfile             # Docker configuration
+├── Jenkinsfile            # Jenkins pipeline configuration
+├── scripts/               # Automation scripts
+├── security/              # Security scan configurations
+├── requirements.txt       # Project dependencies
 ├── README.md
-└── assets/                # Additional resources
+└── docs/                  # Documentation files
 ```
 
 ---
 
-## ⚙ Installation
+## ⚙️ Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ektapawar0109-ai/Vulnerability-Detection-Dashboard.git
+git clone https://github.com/ektapawar0109-ai/DEVSECOPS-Pipeline-Integration.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd Vulnerability-Detection-Dashboard
+cd DEVSECOPS-Pipeline-Integration
 ```
 
-### 3. Install Dependencies
+### 3. Install Required Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### 4. Run the Pipeline
+
+For GitHub Actions:
 
 ```bash
-streamlit run app.py
+git push origin main
+```
+
+For Jenkins:
+
+```bash
+jenkins build
 ```
 
 ---
 
-## 📊 Dashboard Features
+## 🔄 Pipeline Workflow
 
-- Total Vulnerabilities Detected
-- Vulnerability Severity Distribution
-- Risk Score Analysis
-- Historical Trends
-- Interactive Charts and Graphs
-- Detailed Vulnerability Reports
+1. Source Code Management
+2. Build Automation
+3. Unit Testing
+4. Static Code Analysis
+5. Vulnerability Scanning
+6. Container Security Checks
+7. Deployment
+8. Continuous Monitoring
+
+---
+
+## 📊 Security Tools
+
+| Tool | Purpose |
+|--------|---------|
+| SonarQube | Code Quality Analysis |
+| Trivy | Vulnerability Scanning |
+| OWASP ZAP | Dynamic Application Security Testing |
+| Docker | Containerization |
+| GitHub Actions | CI/CD Automation |
+| Jenkins | Pipeline Orchestration |
 
 ---
 
@@ -89,52 +116,49 @@ streamlit run app.py
 
 Add screenshots of:
 
-- Dashboard Home Page
-- Vulnerability Analysis Page
-- Severity Distribution Charts
-- Report Generation Page
+- CI/CD Pipeline Execution
+- Security Scan Results
+- SonarQube Dashboard
+- Jenkins Dashboard
+- GitHub Actions Workflow
 
 ---
 
 ## 🎯 Applications
 
-- Cybersecurity Monitoring
-- Vulnerability Assessment
-- Risk Management
-- Security Operations Center (SOC)
-- Educational and Research Purposes
+- Secure Software Development
+- DevSecOps Automation
+- Vulnerability Detection
+- Continuous Security Monitoring
+- Cloud-Native Deployments
+- Cybersecurity Research
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Integration with Nessus and OpenVAS
-- Machine Learning-based Vulnerability Prediction
-- Email Alert Notifications
-- PDF Report Generation
-- Multi-user Authentication
-- Cloud Deployment Support
+- Kubernetes Integration
+- AWS Deployment
+- Infrastructure as Code (Terraform)
+- Secrets Management
+- Automated Incident Response
+- Real-time Monitoring with Prometheus and Grafana
 
 ---
 
-## 📈 Sample Output
+## 📈 Project Workflow Diagram
 
-| Severity | Count |
-|-----------|------:|
-| Critical | 12 |
-| High | 28 |
-| Medium | 45 |
-| Low | 19 |
+```
+Code → Build → Test → SAST → Vulnerability Scan → Deploy → Monitor
+```
 
 ---
 
 ## 👩‍💻 Author
 
-### **Ekta Pawar**
+### Ekta Pawar
 
-GitHub: https://github.com/ektapawar0109-ai
-
-LinkedIn: Add your LinkedIn profile here
+**GitHub:** https://github.com/ektapawar0109-ai
 
 ---
 
@@ -146,4 +170,7 @@ This project is licensed under the MIT License.
 
 ## ⭐ Support
 
-If you found this project useful, please consider giving it a **Star ⭐** on GitHub.
+If you find this project useful, please consider giving it a **Star ⭐** on GitHub.
+
+---
+**Keywords:** DevSecOps, CI/CD, Jenkins, Docker, GitHub Actions, SonarQube, Trivy, OWASP ZAP, Cybersecurity, Pipeline Automation.
